@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+/.DS_Store
+/data/
+/cloud-cost-treemap.html
+/billing.local.mk
+/dogfood-output/
+
+# Local credentials, exports, and deployment state
+.env
+.env.*
+!.env.example
+/.aws/
+/.gcp/
+/.netlify/
+/.venv/
+/claude_api_cost_*.csv
+/*.pem
+/*.key
